@@ -32,31 +32,15 @@ function addItemtoShoppingCart(productID, orderName, itemPriceNum){
     // Get the div to add the new item
     var itemDiv = document.getElementById([productID]);
 
-    // //create - sign
-    // var signDiv = document.createElement("div");
-    // var signClass = document.createAttribute("class"); 
-    // signClass.value = "sign"; 
-    // signDiv.setAttributeNode(signClass); 
+    //Delete Button
+    var del = document.createElement("button");
+    var delClass = document.createAttribute("class"); 
+    delClass.value = "incQ"; 
+    del.setAttributeNode(delClass);
 
-    // var minus = document.createElement("button");
-    // var minusClass = document.createAttribute("class"); 
-    // minusClass.value = "decQ"; 
-    // minus.setAttributeNode(minusClass);
+    var delP = document.createTextNode("X");
+    del.appendChild(delP);
 
-    // var minusP = document.createTextNode("-");
-    // minus.appendChild(minusP);
-
-    //create + sign
-    var plus = document.createElement("button");
-    var plusClass = document.createAttribute("class"); 
-    plusClass.value = "incQ"; 
-    plus.setAttributeNode(plusClass);
-
-    var plusP = document.createTextNode("X");
-    plus.appendChild(plusP);
-
-    // signDiv.append(minus); 
-    // signDiv.append(plus);
 
     //create the paragraph with the order name
     var itemP = document.createElement("p");
@@ -77,7 +61,7 @@ function addItemtoShoppingCart(productID, orderName, itemPriceNum){
     itemPrice.appendChild(itemPriceName);
 
     // Add the name and price into the div
-    itemDiv.append(plus);
+    itemDiv.append(del);
     itemDiv.append(itemP); 
     itemDiv.append(itemPrice);
 }

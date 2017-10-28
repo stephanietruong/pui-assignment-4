@@ -11,7 +11,7 @@
         <title> Bun Bun Bake Shop</title>
     </head>
     <body>
-
+    <!-- Nav Bar -->
         <header>
             <nav class = "navBar">
                 <a href = "index.html"> <img src="img/shopLogo.png"></a>
@@ -31,33 +31,37 @@
             <section>
                 <img src = "img/original.jpeg" height = "236px" width = "308px">
                 <div id = "general_info">
+
+                    <!-- General Info of Product -->
                     <h3 id = "productName">Original</h3> <h3> Cinnamon Rolls </h3>
                     <p>Classic homemade flavor cinnamon rolls</p>
+
+                    <!-- different order sizes -->
                         <div class="dropdown">
-                          <select id="dropbtn" name="orderSize">
+                            <select id="dropbtn" name="orderSize">
                               <option value = "0"> Please Choose a Size </option>
                               <option value = "1">Individual Roll - $2.50</option>
                               <option value = "2"> Half a Dozen- $10.00 </option>
                               <option value = "3">A Dozen - $18.00 </option>
-                         </select>
+                            </select>
 
-                        </div> <br>
+                        </div> 
+                        <br>
 
+                        <!-- The button to change quantity to add to shopping cart -->
                         <div id = "changeQuant">
-                          <h5> Quantity: </h5> 
-                          <button id="decreaseQuant"> - </button>
-                          
-                          <p id = "quantity"> 0 </p>
-                          
-                          <button id="increaseQuant"> + </button>
+                            <h5> Quantity: </h5> 
+                            <button id="decreaseQuant"> - </button>
+                            <p id = "quantity"> 0 </p>
+                            <button id="increaseQuant"> + </button>
                         </div>
-                        
                         <button id = "addToCart"> Add to Cart </button>
                 </div>
             
                 <div class="clear"> </div>
 
                 <br>
+                <!-- Other Flavors to Add to Your Order -->
                 <div id = "otherFlavors">
                     <h3> ADD ON OTHER FLAVORS </h3>
                     <figure>
@@ -80,29 +84,31 @@
                 </div>
             </section>
 
-            <aside>
+            <!-- This is where you can see what's in your cart -->
+            <aside> 
                 <div id="checkout">
-                  <span class = "subtotal">
-                      <h4> Your Shopping Cart </h4>
+                    <span class = "subtotal">
+                        <h4> Your Shopping Cart </h4>
 
-                      <div id = "addNewItem">
-                      
-                      </div>
+                      <!-- Where each line item will be added -->
+                        <div id = "addNewItem">
 
-                      <div id="subtotalLine">
-                        <p class="itemName"> Subtotal:&nbsp &nbsp </p>
-                        <p id = "subtotal" class="itemPrice">$0.00</p>
-                      </div>
-                      <div class = "clear"></div>
-                  </span>
+                        </div>
+
+                      <!-- show where the subtotal is  -->
+                        <div id="subtotalLine">
+                            <p class="itemName"> Subtotal:&nbsp &nbsp </p>
+                            <p id = "subtotal" class="itemPrice">$0.00</p>
+                        </div>
+
+                        <div class = "clear"></div>
+                    </span>
                    
                     <button id = "thecheckout"> CHECKOUT</button>
                 </div>
             </aside>
             <div class="clear"></div>
-
         </article>
-    
         
         <footer class = "footer">
             <div class = "footer_info">
@@ -130,7 +136,6 @@
             </div>
             <div class= "clear"></div>
         </footer>
-             
     </body>
 </html>
 

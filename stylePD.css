@@ -26,6 +26,7 @@ h3{
 	font-weight: 300;
 }
 
+/*General Information of the product*/
 #general_info{	
 	float: right;
 	width: 60%;
@@ -42,10 +43,7 @@ h3{
 	font-weight: 300;
 }
 
-#otherFlavors{
-
-}
-
+/* Where the other flavors are shown*/
 #otherFlavors img{
 	max-width: 150px;
 }
@@ -106,7 +104,7 @@ figure p{
     border: 1px solid #555555;
 }
 
-
+/*the orange button - Add to cart*/
 button#addToCart{
 	float: left;
 /*	display:block;*/
@@ -120,6 +118,8 @@ button#addToCart{
 }
 
 /**** END OF DROPDOWN MENU ****/
+
+/*****Shopping cart ***********/
 
 aside{
 	margin: 0;
@@ -151,7 +151,8 @@ span.subtotal{
 	font-family: proxima nova, Helvetica Neue, Arial, sans-serif;
 }
 
-#checkout button#thecheckout{
+/*green button*/
+#checkout button#thecheckout{ 
 	display:block;
 	background-color: #3cb878;
 	border: white 1px solid;
@@ -162,6 +163,7 @@ span.subtotal{
 	margin: 0px auto;
 	float: none;
 }
+/***** end of Shopping cart ***********/
 
 /** Change Quantity **/
 
@@ -213,11 +215,7 @@ span.subtotal{
 	display:inline-block;
 }
 
-#subtotalLine p.itemName{
-/*	float: left;*/
-}
-
-/** plus and minus signs **/
+/* Removing item*/
 .sign{	
 	margin-right: 10px;
 	float: left;
