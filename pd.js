@@ -351,8 +351,6 @@ $(document).ready(function() {
             localStorage.setItem("savedCart", JSON.stringify(cart));
             localStorage.setItem("savedTotalCost", JSON.stringify(savedTotal));
 
-            console.log(cart);
-            console.log(savedTotal);
             updateHTML(cart, savedTotal);
             checkTotal(savedTotal);
 
@@ -363,7 +361,6 @@ $(document).ready(function() {
         var parID = $(this).closest("div").prop("id");
         var del = findIndexById(cart,parID);
         var priceDif = cart[del].price;
-        console.log("sdjshjd",priceDif);
         cart.splice(del, 1);
 
         $(this).parent().remove();
@@ -372,7 +369,6 @@ $(document).ready(function() {
         updateHTML(cart, savedTotal);
         checkTotal(savedTotal);
 
-        console.log(cart,checkTotal);
         localStorage.setItem("savedCart", JSON.stringify(cart));
         localStorage.setItem("savedTotalCost", JSON.stringify(savedTotal));
      });
