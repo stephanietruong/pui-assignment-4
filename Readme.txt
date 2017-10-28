@@ -1,0 +1,1 @@
+When trying to delete a product, you can only delete it after you refresh the page and I was not sure how to fix it.
