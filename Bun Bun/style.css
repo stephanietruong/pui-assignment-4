@@ -1,0 +1,162 @@
+body {
+    font-family: proxima nova, Helvetica Neue, Arial, sans-serif;
+    background: #f8f5ee;
+}
+
+
+/************* HEADER ***************/
+.clear {
+    clear: both;
+}
+
+header nav {
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+}
+
+/************* HEADER FOR INDEX ***************/
+header nav.mainpage ul {
+    display: block;
+    max-width: 960px;
+    margin: 2.5em 5em 0 0;
+    list-style-type: none;
+    float: right;
+    text-align: right;
+}
+
+header img {
+    width: 101%;
+    height: auto;
+}
+
+header nav.mainpage ul li{
+    width: 20%;
+    position: relative;
+    display:inline;
+    padding: 1.2em 0 0 5em;
+}
+
+header nav.mainpage ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+   position: absolute; 
+   top: 50%; 
+   text-align: center; 
+   width: 100%;
+   color: #ffffff;
+   font-size: 250%;
+}
+/**********END OF HEADER FOR INDEX ***************/
+
+/***********HEADER FOR OTHER PAGES ***************/
+header nav.navBar{
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+
+header nav.navBar a img{
+    text-align: center;
+    max-height: 100px;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+header nav.navBar ul{
+    text-align: center;
+}
+
+header nav.navBar li:first-child{
+    padding: 3em 2.5em 0 0em;
+}
+header nav.navBar li{
+    position: relative;
+    display:inline;
+    padding: 3em 2.5em 0 2.5em;
+}
+
+
+header nav.navBar li a{
+    text-decoration: none;
+    color: #414141;
+}
+
+/*************End of header for other pages ***************/
+
+header{
+    min-height: 175px;
+}
+
+/******* END OF HEADER *****************/
+
+h4{
+  font-size: 28px;
+  color: #683817;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-weight:bold;
+}
+
+/******** FEATURED PRODUCTS ************/
+
+section.featured{
+    margin: 50px 0;
+}
+div.items {
+    float: left;
+    width: 30%;  
+}
+
+div.items img {
+    display: block;
+    width: 85%;
+    padding: 0 25%;
+}
+
+div.items p {
+    text-align: center;
+    padding-top: 0.5em;
+    color: #505052;
+    width: 85%;
+    padding: 0.5em 25% 0;
+}
+
+/******** END OF FEATURED PRODUCTS *******/
+
+/******** FOOTER *******/
+
+footer{
+    background: #e0d8cb;
+    padding: 0.5em 0 0.5em 27%;
+}
+
+.footer{
+    background: #e0d8cb;
+}
+
+div.footer_info{
+    float: left;
+    width: 25%;  
+}
+
+
+div.footer_info h5 {
+    text-align: left;
+    font-weight: bold;
+    color: #505052;
+    margin-bottom: 3px;
+}
+
+div.footer_info p{
+    text-align: left;
+    font-size: 10px;
+    color: #505052;
+}
+
+/******** END OF FOOTER *******/

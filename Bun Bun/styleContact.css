@@ -1,0 +1,38 @@
+article{
+    margin: 20px 10%;
+    width: 80%;
+    background-color: #ffffff;
+    border-style: solid;
+    padding:50px 0px;
+}
+
+aside{
+  float: left;
+    width:55%;
+    margin: 0;
+}
+
+aside img{
+    float: right;
+    margin-bottom: 35px;
+}
+
+section{
+    float: right;
+    width: 40%;
+}
+
+section.contact_info{
+    float: left;
+    width: 50%;
+}
+
+h4{
+  margin-bottom: 15px;
+}
+
+section p{
+  margin: 0;
+  width: 50%;
+  font-size: 12px;
+}

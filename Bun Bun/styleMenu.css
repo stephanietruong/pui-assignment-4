@@ -1,0 +1,88 @@
+body {
+    font-family Helvetica Neue, Arial, sans-serif;
+    background: #f8f5ee;
+}
+
+
+
+/*** Article****/
+article {
+    margin: 20px 10%;
+    width: 80%;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+h3{
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    color: #61c9d0;
+    text-align: center;
+    font-size: 48px; 
+    margin-bottom: 10px;
+}
+
+.line{
+    border-top: 2px solid #61c9d0;
+    margin-bottom: 50px;
+}
+
+button{
+    margin-left: 9%;
+    margin-bottom: 5px;
+    padding:5px;
+    background-color: #ffffff;
+    border-style: solid;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+section.browse figure{
+    display: inline-block;
+}
+
+section.browse figure:first-child{
+    margin-top: 0;
+}
+
+section.browse figure:last-child{
+    margin-bottom: 50px; 
+}
+
+section.browse figure a{
+    font-weight: thin;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+}
+
+section.browse figure a img{
+    display : inline-block;
+}
+
+section.browse figure figcaption{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    font-size: 18px;
+}
+
+section.browse figure hr.line_des{
+    border-top: 2px solid #683817;
+    margin-bottom: 15px;
+}
+
+section.browse figure p{
+    max-width: 225px;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+section.browse figure h4{
+    font-weight: bold;
+    text-align: center;
+    color:#683817;
+    font-size: 16px;
+}

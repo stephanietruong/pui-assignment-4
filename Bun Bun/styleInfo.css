@@ -1,0 +1,78 @@
+article{
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+section {
+	float: left;
+  width: 25%;
+  margin-left: 25%;
+
+}
+
+aside{
+    float: right;
+    width: 48%;
+}
+
+.info_details{
+	float: left;
+	margin-left: 10px;
+}
+
+h4{ 
+   text-align: center;
+   float: left; 
+   font-size: 32px;    
+   margin: 0em 5% 0.5em 0;
+   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+   font-weight:bold;
+}
+
+h5{
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+p.ingredients{
+  font-size: 10px;
+  text-decoration: none;
+}
+
+aside p{
+	width: 60%;
+	font-size: 12px;
+}
+
+aside button{
+	background-color: #967a4c;
+    color: white;
+    padding:5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+
+.smallPics img{
+	margin-top: 5px;
+	margin-right: 3.5px;
+	border-style: solid;
+	border-color: #bbbbbb;
+}
+
+.radio{
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.radio input{
+	margin-right: 10px;	
+	margin-bottom: 5px;
+}
+
+
+
